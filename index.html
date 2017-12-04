@@ -95,6 +95,9 @@
 			 但是每次我都克制,因为我知道,你会觉得虚伪<br> \
 			 我不是不甘心你被别人抢走了,我不甘心的是以后不能照顾你了,以后不能提醒你吃饭睡觉了<br> \
 			 以后你肚子疼的时候不能给你揉了,以后生病了不能给你买药不能在你身边陪你了<br> \
+			 刚刚我爸给我发微信说想我了,我长这么大第一次说这种话<br>\
+			 我在公交上的时候说的,我是不是不是人?<br>\
+			 我长这么大真的没有对任何人像你这么好过<br>\
 			 我今天就把话说到底了,以后我的心里不会有其他人了,永远不会了<br> \
 			 恋爱,我觉得一次就够了<br> \
 			 今天跟你说这么多的目的,就是为了让你知道我多爱你<br> \
@@ -109,7 +112,7 @@
 			 ";
 			 i = 0;
 			 function show(){
-				 str  = content.substr(0,i);
+				 var str  = content.substr(0,i);
 				 txt.innerHTML = str + "_";
 				 i++;
 				 setTimeout("show()",120);
@@ -120,7 +123,7 @@
 				background-color:#FFCCCC;
 				background-repeat: no-repeat;
 				background-attachment:fixed;
-				width: 100%
+				width: 97%;
 				height: 2300px;
 			}
 			div{
@@ -131,5 +134,6 @@
 	</head>
 	<body onLoad="show()">
 		<div id="txt" class="cssec6b9e8ff1b309"></div>
+        <audio src="./bgm.mp3" autoplay></audio>
 	</body>
 </html>
